@@ -1,0 +1,23 @@
+%dw 2.0
+
+type auto_cce3c475_4096_4506_b724_548f771b1b90_Output_Attributes = {|
+  clientCertificate?: {|
+    publicKey?: {|  |}, 
+    "type"?: String, 
+    encoded?: Binary
+  |}, 
+  headers: {|  |}, 
+  listenerPath: String, 
+  method: String, 
+  queryParams: {|  |}, 
+  queryString: String, 
+  relativePath: String, 
+  remoteAddress: String, 
+  requestPath: String, 
+  requestUri: String, 
+  scheme: String, 
+  uriParams: {| restaurant_id: String |}, 
+  version: String, 
+  localAddress: String
+|}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="get-restuarants-by-idFlow" doc:id="cce3c475-4096-4506-b724-548f771b1b90" >
+		<logger level="INFO" doc:name="Logger" doc:id="da66d715-dc39-46d0-96cc-af8279d271d5" message="getting restaurantsby id"/>
+	</flow>
+</mule>
