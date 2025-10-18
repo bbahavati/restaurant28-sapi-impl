@@ -268,5 +268,6 @@ output application/json
     </flow>
     <flow name="post:\restaurants:application\json:restaurant28-config">
         <logger level="INFO" message="post:\restaurants:application\json:restaurant28-config" />
+		<logger level="INFO" doc:name="Logger" doc:id="1bad7da6-6946-42dd-9577-05e7c3d65d64" />
     </flow>
 </mule>
